@@ -1,8 +1,8 @@
 import "./App.css";
 import {
-  // AccordionComponentRendering,
+  AccordionComponentRendering,
   ModalComponentRendering,
-  // CarouselComponentRendering,
+  CarouselComponentRendering,
 } from "./ComponentRendering";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
 
       <div>
         <ModalComponentRendering />
-        {/* <AccordionComponentRendering /> */}
-        {/* <CarouselComponentRendering /> */}
+        <AccordionComponentRendering />
+        <CarouselComponentRendering />
       </div>
     </div>
   );
