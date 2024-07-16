@@ -1,0 +1,17 @@
+.accordionItem__wrapper{
+    width: 500px;
+}
+
+.heading__div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.close__btn{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
