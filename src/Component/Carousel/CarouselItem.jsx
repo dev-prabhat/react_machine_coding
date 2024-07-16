@@ -2,7 +2,6 @@
 import { RiArrowDropLeftLine, RiArrowDropRightLine } from "react-icons/ri";
 import styles from "./carousel.module.css";
 const CarouselItem = ({ image, title, name, id, activeIndex, start, stop , next, prev}) => {
-  console.log(activeIndex);
   return (
     <div
       className={
